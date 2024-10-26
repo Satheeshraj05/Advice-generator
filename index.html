@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advice Generator App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="advice-container">
+    <h1 class="sr-only">Advice Generator</h1>
+    <div class="advice-card">
+      <p class="advice-id">ADVICE #<span id="advice-number">117</span></p>
+      <p class="advice-text" id="advice-text">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
+      <div class="divider">
+        <img src="images/pattern-divider-desktop.svg" alt="" class="divider-desktop">
+        <img src="images/pattern-divider-mobile.svg" alt="" class="divider-mobile">
+      </div>
+      <button class="dice-button" id="dice-button" aria-label="Generate new advice">
+        <img src="images/icon-dice.svg" alt="Dice icon">
+      </button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
